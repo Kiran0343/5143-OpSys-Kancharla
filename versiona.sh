@@ -1,3 +1,4 @@
+#!/bin/bash
 #decalring date to variable d
 d=$(date +%y_%m_%d)
 #reading the argument and storing it in file

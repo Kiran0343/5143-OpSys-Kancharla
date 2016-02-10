@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #declaring date
 d=$(date +_%y_%m_%d)
 #using basename to split the argument

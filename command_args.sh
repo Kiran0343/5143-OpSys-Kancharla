@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #for loop to read all the arguments
 for a in $@
 do
