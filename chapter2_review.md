@@ -51,7 +51,7 @@ It is an algorithm which follows FIFO to dispatch the processes with a limited a
 
 ###9. Explain the difference between a monolithic kernel and a microkernel.
 
-Monolithic kernel is a single large process completely in a single address space. Monolithic kernel is a single large process running entirely in a single address space. It is a single static binary file. All kernel services exist and execute in the kernel address space. The kernel can invoke functions directly In microkernels, the kernel is broken down into separate processes, known as servers. Some of the servers run in kernel space and some run in user-space. All servers are kept separate, and run in different address spaces. Servers invoke "services" from each other by sending messages via IPC (Inter process Communication). This separation has the advantage that if one server fails, other servers can still work efficiently.
+Monolithic kernel is a single large process which has the file system, device drivers and application IPC are all in the same address space whereas in microkernels, the core functionality is isolated from system services and device drivers. Monolithic kernels can load the modules at run time dynamically. All kernel services exist and execute in the kernel address space.  Servers invoke "services" from each other by sending messages via IPC. This separation has the advantage that if one server fails, other servers can still work efficiently.
   
 ###10. What is Multithreading? 
 
