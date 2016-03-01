@@ -2,8 +2,7 @@
 @Program Name: Yo-Shell V1 
 @Author: Kiran Kancharla
 @Description:
-    This code is a barebones snippet to get your shell up and running. It provides the following classes 
-    (each of which is not fully implemented):
+
           historyManager - manages a history of commands
           parserManager - handles parsing of commands into command , arguments, flags
           commandManager - gets commands parsed and then runs appropriate functions for command
