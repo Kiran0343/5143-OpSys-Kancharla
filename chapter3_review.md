@@ -7,6 +7,7 @@ Swapping is a technique for memory/process management used by the operating syst
 1. Process identification. 
 2. Processor state information. 
 3. Process control information.
+
 ##  3.10 Why are two modes (user and kernel) needed?
 In Kernel mode, the executing code has a privileged option to access the protected memory. It can execute any CPU instruction and reference any memory address. Kernel mode is generally reserved for the lowest-level, most trusted functions of the operating system. Crashes in kernel mode are catastrophic; they will halt the entire PC.In User mode, the executing code cannot have access to the protected memory and the code should be executed on the memory provided to the user.
 ##  3.12 What is the difference between an interrupt and a trap?
@@ -16,6 +17,7 @@ In Kernel mode, the executing code has a privileged option to access the protect
 1. Clock interrupts. 
 2. 2. I/O interrupts. 
 3. 3. Memory fault.
+
 ## 3.14 What is the difference between a mode switch and a process switch?
 	During a mode switch the state of a process doesn't change from running to stop mode, but during the process mode, the process will be put to halt from running state.
 
