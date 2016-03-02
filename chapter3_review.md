@@ -15,8 +15,8 @@ An interrupt occurs when some external operation hits the current process such h
 
 ##  3.13 Give three examples of an interrupt.
 1. Clock interrupts. 
-2. 2. I/O interrupts. 
-3. 3. Memory fault.
+2. I/O interrupts. 
+3. Memory fault.
 
 ## 3.14 What is the difference between a mode switch and a process switch?
 During a mode switch the state of a process doesn't change from running to stop mode, but during the process mode, the process will be put to halt from running state.
