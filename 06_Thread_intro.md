@@ -11,9 +11,11 @@ MID: M20222193
 
 ##Question 1
 ###Difference between Threads1.py and Threads2.py  
+There is a global variable which is shared among the threads2.py. Here both threads are trying to update sharedCounter variable.
 
 ##Question 2
 ###After running Thread3.py does it fix the problems that occured in Threads2.py? What's the down-side?  
+Yes Thread3.py fix the problem that occurred in Thread2.py. Due to lock and unlock mechanism the time taken to execute the program has increased.
 
 ##Question 3
 ###Describe what happens after commenting out Join.
