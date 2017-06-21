@@ -52,6 +52,6 @@ print "Weighted marks for final exam is:" ,str(weight3)
 print "Total Weighted marks for subject is:" ,str(weight)
 print "bonus marks:",str(bonus_marks)
 print "total marks with bonus :",str(bonus)
-print "Goodbye Thank you"
+print "Goodbye"
 
 
