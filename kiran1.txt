@@ -1,3 +1,6 @@
 hello kiran1
+<<<<<<< HEAD
 update1
 update2
+=======
+>>>>>>> parent of a9006f5... first update
